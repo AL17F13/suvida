@@ -13,9 +13,11 @@ $(document).ready(function(e) {
 	//$('#imgmessi').css('width', '100%');
 	
 
-	$ ('#btvibrar') .on ('top' , function () { 
+	$ ('#btvibrar') .on ('tap' , function () { 
   navigator .vibrate (1000);
+   
  });//  tap a btnvibrar
+
  
 
 
