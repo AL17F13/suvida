@@ -1,16 +1,6 @@
 // JavaScript Document
 $(document).ready(function(e) {
-	
-	
-	$ ('#btvibrar') .on ('top' , function () { 
-  navigator .vibrate (1000);
- });//  tap a btnvibrar
- 
- 
- 
- 
- 
-//document.addEventListener("deviceready",function(){
+	document.addEventListener("deviceready",function(){
 //	alert($('#messi').width() + " " + $('#messi').height());
 
 //var pantalla=$.mobile.getScreenHeight();
@@ -23,8 +13,12 @@ $(document).ready(function(e) {
 	//$('#imgmessi').css('width', '100%');
 	
 
+	$ ('#btvibrar') .on ('top' , function () { 
+  navigator .vibrate (1000);
+ });//  tap a btnvibrar
+ 
 
 
 }); 
-//});
+});
 
